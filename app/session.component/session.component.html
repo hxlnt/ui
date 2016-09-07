@@ -1,4 +1,4 @@
-<md-tab-group [selectedIndex]="index">
+<!--<md-tab-group [selectedIndex]="index">
   <md-tab>
     <template md-tab-label>Data</template>
     <template md-tab-content>
@@ -11,13 +11,13 @@
       <visual></visual>
     </template>
   </md-tab>
-</md-tab-group>
+</md-tab-group>-->
 
 <div (window:keydown)="handleKeypress($event)"></div>
 
-<button md-raised-button
+<!--<button md-raised-button
   (click)="(api.session.status == 'active' ? api.end() : api.start())"
   [color]="(api.session.status == 'active' ? 'warn' : 'primary')"
   [disabled]="(api.session.rowers.length == 0)" >
     {{ (api.session.status == 'active' ? 'END' : 'START') }}
-</button>
+</button>-->
