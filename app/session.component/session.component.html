@@ -15,9 +15,9 @@
 
 <div (window:keydown)="handleKeypress($event)"></div>
 
-<!--<button md-raised-button
+<button md-raised-button
   (click)="(api.session.status == 'active' ? api.end() : api.start())"
   [color]="(api.session.status == 'active' ? 'warn' : 'primary')"
   [disabled]="(api.session.rowers.length == 0)" >
     {{ (api.session.status == 'active' ? 'END' : 'START') }}
-</button>-->
+</button>
