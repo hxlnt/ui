@@ -27,9 +27,9 @@ import { ApiService } from './api.service/api.service';
     FormsModule,
     routing,
     HttpModule,
-    // MdButtonModule,
-    // MdCardModule,
-    // MdTabsModule
+    MdButtonModule.forRoot(),
+    MdCardModule.forRoot(),
+    MdTabsModule.forRoot()
   ],
   declarations: [
     AppComponent,
